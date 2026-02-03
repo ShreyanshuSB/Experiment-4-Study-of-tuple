@@ -6,17 +6,88 @@ batch : Entc 2025-29
 
 tool : VS Code
 
-theory :
-In Python, a tuple is a fundamental built-in data structure that is used to store an ordered collection of elements. Tuples are defined by placing elements inside parentheses and separating them with commas. They are capable of storing multiple values of different data types such as integers, floating-point numbers, strings, and characters within a single variable. One of the most important characteristics of a tuple is that it is immutable, which means that once a tuple is created, its elements cannot be changed, modified, added, or removed. This property distinguishes tuples from lists and makes them more reliable for storing data that should remain constant throughout the execution of a program.
+📌 Aim
 
-Tuple elements can be accessed using indexing, where the position of each element starts from zero. This allows specific values to be retrieved easily. However, any attempt to update a value at a particular index results in a TypeError, reinforcing the immutability of tuples. Tuples do not support methods such as append(), remove(), or pop(), which are commonly used with lists. Despite these limitations, tuples provide several useful operations such as concatenation, which enables two or more tuples to be joined together to form a new tuple without modifying the original ones. Tuples also support repetition, slicing, and built-in functions like count() and index() to analyze stored data.
+To study the concept of Tuples in Python, understand their characteristics, features, and applications, and differentiate them from other data structures.
 
-Another important concept studied in tuples is tuple unpacking, where the elements of a tuple are assigned to individual variables in a single statement. This improves code readability and simplifies data manipulation, especially when working with structured records. Tuples are commonly used in real-world applications where data integrity is crucial, such as storing student examination results, employee attendance records, database entries, and fixed configuration settings. Because tuples are immutable, they are faster to process and more memory-efficient compared to mutable data structures, making them suitable for performance-critical applications.
+📖 Detailed Theory
+Introduction to Tuples
 
-problem statement 1: A student's exam result is stored in the form of tuple containing three fixed fields: subject name, marks obtained and grade write a python program to: store the exam result using a tuple unpack the tuple elements into separate variables display the subjects,marksand grade
+A tuple is a built-in data structure in Python used to store a collection of elements. Tuples are similar to lists in many ways, but the key difference is that tuples are immutable, meaning their values cannot be changed once created.
 
-Conclusion
+Tuples are commonly used when data should remain constant and protected from modification throughout the execution of a program.
 
-Through this experiment, we gained an in-depth understanding of tuples and their role in Python programming. We learned how to create tuples, store multiple values, and access individual elements using indexing. The immutability of tuples was clearly demonstrated through various operations that resulted in errors when modification was attempted. We also studied different tuple operations such as concatenation and counting elements, which helped us understand how data can be combined and analyzed without altering the original structure. The concept of tuple unpacking was explored to extract and use individual values efficiently.
+Characteristics of Tuples
 
-Practical applications such as student result analysis and employee attendance monitoring highlighted the usefulness of tuples in handling fixed and structured data. This experiment emphasized the importance of choosing the correct data structure based on program requirements. Overall, the study of tuples enhanced our understanding of data security, efficiency, and reliability in Python, making tuples an essential tool for managing unchangeable and well-organized data in real-world programming scenarios.
+Ordered:
+Elements in a tuple are stored in a fixed order and can be accessed using indexing.
+
+Immutable:
+Once a tuple is created, its elements cannot be modified, added, or removed.
+
+Allows Duplicate Elements:
+A tuple can store the same value more than once.
+
+Heterogeneous Data:
+Tuples can store elements of different data types such as integers, floats, strings, etc.
+
+Faster than Lists:
+Tuples require less memory and provide faster access compared to lists due to immutability.
+
+Indexing and Accessing Elements
+
+Each element in a tuple is associated with an index number, starting from 0. Indexing allows accessing specific elements easily without altering the tuple.
+
+Tuple Operations
+
+Although tuples cannot be modified, several operations can still be performed, such as:
+
+Accessing elements
+
+Finding the length of the tuple
+
+Counting occurrences of elements
+
+Finding the position of an element
+
+Concatenating tuples to create a new tuple
+
+These operations make tuples useful for fixed data collections.
+
+Tuple Packing and Unpacking
+
+Tuple packing refers to storing multiple values into a single tuple, while tuple unpacking refers to extracting individual values from a tuple into separate variables. This feature improves readability and simplifies variable assignments.
+
+Applications of Tuples
+
+Used to store fixed or constant data
+
+Useful for function return values
+
+Used in dictionary keys
+
+Helps maintain data integrity
+
+Commonly used in record-like data structures
+
+🧪 Experiment Description
+
+In this experiment, the concept of tuples is studied to understand how Python manages immutable collections. The behavior of tuples is analyzed through accessing elements and applying tuple operations without altering the original data.
+
+🖥️ Requirements
+
+Python Programming Environment
+
+Basic understanding of Python data structures
+
+📝 Conclusion
+
+The study of tuples in Python highlights their importance as an immutable data structure. Tuples provide a safe and efficient way to store fixed collections of data. Their immutability ensures data integrity, making them ideal for constant values and structured records. Understanding tuples is essential for writing efficient, secure, and reliable Python programs.
+
+📚 Learning Outcome
+
+Clear understanding of tuple concepts
+
+Knowledge of tuple characteristics and use cases
+
+Ability to choose tuples over lists where immutability is required requirements. Overall, the study of tuples enhanced our understanding of data security, efficiency, and reliability in Python, making tuples an essential tool for managing unchangeable and well-organized data in real-world programming scenarios.
