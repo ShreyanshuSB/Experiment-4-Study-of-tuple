@@ -6,11 +6,11 @@ batch : Entc 2025-29
 
 tool : VS Code
 
-📌 Aim
+# Aim
 
 To study the concept of Tuples in Python, understand their characteristics, features, and applications, and differentiate them from other data structures.
 
-📖 Detailed Theory
+# Detailed Theory
 Introduction to Tuples
 
 A tuple is a built-in data structure in Python used to store a collection of elements. Tuples are similar to lists in many ways, but the key difference is that tuples are immutable, meaning their values cannot be changed once created.
@@ -70,21 +70,21 @@ Helps maintain data integrity
 
 Commonly used in record-like data structures
 
-🧪 Experiment Description
+# Experiment Description
 
 In this experiment, the concept of tuples is studied to understand how Python manages immutable collections. The behavior of tuples is analyzed through accessing elements and applying tuple operations without altering the original data.
 
-🖥️ Requirements
+# Requirements
 
 Python Programming Environment
 
 Basic understanding of Python data structures
 
-📝 Conclusion
+# Conclusion
 
 The study of tuples in Python highlights their importance as an immutable data structure. Tuples provide a safe and efficient way to store fixed collections of data. Their immutability ensures data integrity, making them ideal for constant values and structured records. Understanding tuples is essential for writing efficient, secure, and reliable Python programs.
 
-📚 Learning Outcome
+# Learning Outcome
 
 Clear understanding of tuple concepts
 
